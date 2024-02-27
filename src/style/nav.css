@@ -1,29 +1,52 @@
-.UlLogin {
+.upperNav {
   display: grid;
   grid-template-columns: 80% 20%;
   background-color: #162a41;
   padding: 1em 20em;
 }
-.UlLogin p {
+.upperNav p {
   color: white;
 }
-.UlLogin svg {
+.upperNav svg {
   color: white;
   max-width: 20px;
   width: 20px;
 }
-.UlLogin li {
+.upperNav li {
   display: grid;
   grid-template-columns: auto auto;
 }
-.UlLogin:last-child {
+.upperNav:last-child {
   justify-self: end;
 }
-.UlLogin div {
+.upperNav div {
   display: grid;
   grid-template-columns: auto auto;
   max-width: 400px;
 }
-.UlLogin .login {
-  max-width: 110px;
+.upperNav .login {
+  justify-self: end;
+  column-gap: 1em;
+  padding-right: 20px;
+}
+
+.underNav {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 2em 20em;
+}
+.underNav div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+  max-width: 500px;
+  justify-self: end;
+}
+.underNav li {
+  width: 120px;
+  font-size: 16px;
+}
+.underNav img {
+  max-width: 200px;
+  width: 200px;
 }/*# sourceMappingURL=nav.css.map */

@@ -1,0 +1,62 @@
+section {
+    height: 800px;
+    background-image: url(../images/hero.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .sectionBg {
+        background-color: rgba(0, 0, 0, 0.4);
+        height: 800px;
+    }
+    .searchContainer {
+        margin: auto;
+        width: 1200px;
+        height: 250px;
+        background-color: white;
+        margin-top: 2em;
+        padding: 3em 4em;
+        display: grid;
+        grid-template-rows: 40% 20% 20%;
+    }
+    h1 {
+        color: white;
+        font-size: 3em;
+        font-weight: 700;
+        margin: 0;
+        text-align: center;
+        padding-top: 5em;
+    }
+    form {
+        display: grid;
+        grid-template-columns: 85% 15%;
+        column-gap: 1em;
+    }
+    .submitButton {
+        color: white;
+        background-color: #162a41;
+        padding: 1em 1em;
+    }
+    .searchField {
+        width: 100%;
+        padding: 0 1em;
+        border: 1px solid #d3dee8;
+        border-radius: 5px;
+        height: 100%;
+    }
+    .searchText1 {
+        font-size: 22px;
+        font-weight: 500;
+        color: #2a2c30;
+    }
+    .searchText2 {
+        font-size: 18px;
+        font-weight: 500;
+        color: #2a2c30;
+    }
+
+    .textUnderline {
+        border-bottom: 5px solid currentColor; // Adjust thickness here
+        display: inline-block;
+        padding-bottom: 5px; // Adjust position here
+    }
+}

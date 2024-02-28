@@ -1,14 +1,20 @@
+"use client"
+
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaperPlane, faUser } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import Image from "next/image"
 
-
 import logo from "@/images/logo.png";
-import { headers } from 'next/headers';
+import useFetch from './useFetch';
 
 export default function Navigation() {
+    const { data: homes, loading, error } = useFetch('https://dinmaegler.onrender.com/homes');
+
+    if (loading) return 'Loading...';
+    if (error) return 'Error!';
+
     return (
         <header>
             <nav>
@@ -30,6 +36,15 @@ export default function Navigation() {
                     </div>
                 </ul>
             </nav>
+            <div>
+            {homes.map(home => (
+    <div key={home.id}>
+        <h2>{home.title}</h2>
+        <p>{home.description}</p>
+        <img src={home.imageUrl} alt={home.title} />
+    </div>
+))}
+            </div>
         </header>
     );
 }

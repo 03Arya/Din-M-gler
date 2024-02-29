@@ -1,15 +1,15 @@
-section {
+.heroContainer {
   height: 800px;
   background-image: url(../images/hero.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-section .sectionBg {
+.heroContainer .sectionBg {
   background-color: rgba(0, 0, 0, 0.4);
   height: 800px;
 }
-section .searchContainer {
+.heroContainer .searchContainer {
   margin: auto;
   width: 1200px;
   height: 250px;
@@ -19,7 +19,7 @@ section .searchContainer {
   display: grid;
   grid-template-rows: 40% 20% 20%;
 }
-section h1 {
+.heroContainer h1 {
   color: white;
   font-size: 3em;
   font-weight: 700;
@@ -27,34 +27,34 @@ section h1 {
   text-align: center;
   padding-top: 5em;
 }
-section form {
+.heroContainer form {
   display: grid;
   grid-template-columns: 85% 15%;
   column-gap: 1em;
 }
-section .submitButton {
+.heroContainer .submitButton {
   color: white;
   background-color: #162a41;
   padding: 1em 1em;
 }
-section .searchField {
+.heroContainer .searchField {
   width: 100%;
   padding: 0 1em;
   border: 1px solid #d3dee8;
   border-radius: 5px;
   height: 100%;
 }
-section .searchText1 {
+.heroContainer .searchText1 {
   font-size: 22px;
   font-weight: 500;
   color: #2a2c30;
 }
-section .searchText2 {
+.heroContainer .searchText2 {
   font-size: 18px;
   font-weight: 500;
   color: #2a2c30;
 }
-section .textUnderline {
+.heroContainer .textUnderline {
   border-bottom: 5px solid currentColor;
   display: inline-block;
   padding-bottom: 5px;

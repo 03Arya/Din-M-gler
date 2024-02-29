@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Hero() {
     return (
-        <section>
+        <section className='heroContainer'>
             <div className='sectionBg'>
                 <h1>Søg efter din drømmebolig</h1>
 

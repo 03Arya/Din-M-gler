@@ -1,0 +1,90 @@
+.aboutUsContainer {
+  margin: auto;
+  width: 1200px;
+  display: grid;
+  margin-top: 6em;
+}
+.aboutUsContainer .aboutUsDiv1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.aboutUsContent h2 {
+  color: #263048;
+  font-weight: 700;
+  font-size: 44px;
+}
+.aboutUsContent .aboutUsUnderHeader {
+  color: #162a41;
+  font-size: 25px;
+  font-weight: 500;
+  padding-bottom: 0.5em;
+}
+.aboutUsContent p {
+  color: #333333;
+  font-size: 18px;
+}
+
+.houseForSale {
+  padding-top: 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.houseForSale div {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.houseForSale img {
+  background-color: #eef7ff;
+  padding: 1em 1em;
+  display: block;
+  width: 75px;
+  height: 75px;
+}
+.houseForSale .houseNumber {
+  color: #2a2c30;
+  font-weight: 500;
+  font-size: 25px;
+}
+.houseForSale .numberDiv {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+}
+.houseForSale p {
+  color: #333333;
+}
+
+.aboutUsDiv2 {
+  margin: 5em 0em 10em 0em;
+  padding-top: 3em;
+  border-top: 2px solid #d3dee8;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.moreInfoContainer {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+.moreInfoContainer img {
+  background-color: #eef7ff;
+  padding: 0.75em 0.75em;
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+
+.moreInfo {
+  display: grid;
+  grid-template-rows: 40% 60%;
+  row-gap: 1em;
+}
+.moreInfo .infoHeader {
+  color: #2a2c30;
+  font-weight: 600;
+  font-size: 30px;
+}
+.moreInfo .infoText {
+  max-width: 275px;
+}/*# sourceMappingURL=aboutUs.css.map */

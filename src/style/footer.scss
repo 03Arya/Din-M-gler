@@ -1,12 +1,115 @@
 footer {
+    padding-top: 4em;
+    background-color: #f8f8fb;
+}
 
+.footerMiddleBg {
+    background-color: white;
+}
+
+.footerContent {
+    width: 1200px;
+    margin: auto;
+    display: grid;
+}
+
+.footerDiv1 {
+    p {
+        padding: 2em 0 0 0;
+        width: 700px;
+        color: #333333;
+    }
 }
 
 .bottomFooter {
-    background-color: #162A41;
+    background-color: #162a41;
     padding: 2em 0;
     p {
         color: white;
         text-align: center;
+    }
+}
+
+.footerMiddleDiv {
+    padding: 2em 0 4em 30em;
+    display: grid;
+    grid-template-rows: 20px 60px 20px;
+    width: 1000px;
+    margin: auto;
+    p {
+        color: #7b7b7b;
+        font-size: 16px;
+    }
+    span {
+        color: #7b7b7b;
+        font-weight: 700;
+        font-size: 40px;
+    }
+}
+
+.footerSecondContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    bottom: -5em;
+}
+
+.footerSocials {
+    box-shadow: 0 0 25px #000;
+    width: 475px;
+    background-color: white;
+    height: 500px;
+    padding: 2em 3em 0 3em;
+    p {
+        color: #333333;
+        font-size: 22px;
+        max-width: 300px;
+    }
+}
+
+.footerLinks {
+    display: grid;
+    row-gap: 0.25em;
+    max-height: 250px;
+    span {
+        color: #2a2c30;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    p {
+        color: #333333;
+        font-size: 18px;
+    }
+}
+
+.footerIconsDiv {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding: 1em 0 1em 0;
+    column-gap: 1em;
+    p {
+        grid-column: 2;
+    }
+    svg {
+        font-size: 35px;
+        color: white;
+        background-color: #162a41;
+        border-radius: 50%;
+        padding: 0.5em;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.footerTextDiv {
+    line-height: 2;
+    span {
+        color: #333333;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    p {
+        color: #7b7b7b;
+        font-size: 16px;
     }
 }

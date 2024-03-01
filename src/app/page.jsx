@@ -11,6 +11,8 @@ import Navigation from "@/components/navigation";
 import AboutUs from "@/components/aboutUs";
 import Ad from "@/components/ad";
 import Footer from "@/components/footer";
+import AgentShowcase from "@/components/agentShowcase";
+
 
 export default function Home() {
   return (
@@ -18,6 +20,7 @@ export default function Home() {
       <Navigation />      
       <Hero />
       <AboutUs />
+      <AgentShowcase />
       <Ad />
       <Footer />
     </main>

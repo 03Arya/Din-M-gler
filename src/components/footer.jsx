@@ -37,13 +37,13 @@ export default function Footer() {
                         </div>
                         <p>Din Mægler Roskilde, er din boligbutik i lokalområdet</p>
                     </div>
-                    <div className="footerLinks">
+                    <nav className="footerLinks">
                         <span>Quick Links</span>
                         <p>Boliger til salg</p>
                         <p>Mæglere</p>
                         <p>Kontakt os</p>
                         <p>Log ind / bliv bruger</p>
-                    </div>
+                    </nav>
                 </div>
             </section>
             <div className="footerMiddleBg">

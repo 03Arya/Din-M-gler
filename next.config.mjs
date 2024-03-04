@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    pageExtensions: ['js', 'jsx'],
+
     images: {
-        domains: ['dinmaegler.onrender.com'],
+        domains: ['res.cloudinary.com', 'dinmaegler.onrender.com'],
     },
 };
 

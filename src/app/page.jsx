@@ -1,26 +1,36 @@
 import Image from "next/image";
+import Link from "next/link";
 
-import "@/style/nav.scss" 
+import "@/style/nav.scss"
 import "@/style/hero.scss"
 import "@/style/aboutUs.scss"
 import "@/style/ad.scss"
 import "@/style/footer.scss"
+import "@/style/houses.scss"
+import "@/style/frontPage.scss"
 
 import Hero from "@/components/hero";
 import Navigation from "@/components/navigation";
 import AboutUs from "@/components/aboutUs";
 import Ad from "@/components/ad";
 import Footer from "@/components/footer";
-import AgentShowcase from "@/components/agentShowcase";
+import Houses from "@/components/houses";
 
 
 export default function Home() {
   return (
     <main>
-      <Navigation />      
+      <Navigation />
       <Hero />
       <AboutUs />
-      <AgentShowcase />
+      <section className="frontPageHousesContainer">
+        <div className="frontPageContent">
+          <h3 className="frontPageHousesHeader">Udvalge Boliger</h3>
+          <p className="frontPageHousesText">There are many variations of passages of Lorem Ipusm avaliable but the this in majority have suffered alteration in some</p>
+          <Houses />
+          <Link className="showcaseAllHousesLink" href="/allHomes"> Se alle boliger</Link>
+        </div>
+      </section>
       <Ad />
       <Footer />
     </main>

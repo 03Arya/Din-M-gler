@@ -1,0 +1,38 @@
+.frontPageHousesContainer {
+  background-color: #f8f8fb;
+}
+
+.frontPageContent {
+  width: 1200px;
+  margin: auto;
+  display: grid;
+  padding: 4em 0;
+}
+
+.frontPageHousesHeader {
+  color: #263048;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+}
+
+.frontPageHousesText {
+  text-align: center;
+  padding-top: 1em;
+  max-width: 600px;
+  margin: auto;
+  color: #333333;
+  font-size: 16px;
+  line-height: 30px;
+  padding-bottom: 2em;
+}
+
+.showcaseAllHousesLink {
+  text-align: center;
+  margin: auto;
+  width: 200px;
+  font-weight: 600;
+  color: white;
+  background-color: #162a41;
+  padding: 1em 0;
+}/*# sourceMappingURL=frontPage.css.map */

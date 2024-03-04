@@ -1,0 +1,84 @@
+.house {
+    background-color: #fff;
+    max-width: 540px;
+
+    .houseAdress {
+        color: #2a2c30;
+        font-weight: 600;
+        font-size: 18px;
+        padding: 1em 0;
+    }
+
+    .houseCityCode {
+        color: #333333;
+        padding-bottom: 1em;
+    }
+    .houseMiddleDiv {
+        display: grid;
+        grid-template-columns: auto auto;
+        max-width: 350px;
+        padding-bottom: 1em;
+    }
+
+    .houseType {
+        color: #333333;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .houseEnergyLabel {
+        padding: 0.25em 0.25em;
+        max-width: 30px;
+        font-weight: 700;
+        text-align: center;
+        color: white;
+        background-color: #10ac84;
+    }
+
+    .houseImage {
+        max-height: 360px;
+    }
+
+    .housePrice {
+        text-align: end;
+        color: #333333;
+        font-weight: 700;
+        font-size: 18px;
+    
+    }
+}
+
+.houseTextContainer {
+    padding: 0 1em;
+}
+
+.houseContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
+    row-gap: 2em;
+    padding-bottom: 4em;
+}
+
+.houseBottomDiv {
+    border-top: 1px solid #d3dee8;
+    display: grid;
+    grid-template-columns: 10% 20% 30% 40%;
+    padding: 1em 0;
+}
+
+.houseLink {
+    max-width: 540px;
+}
+
+.energyLabelA {
+    background-color: #10ac84;
+}
+
+.energyLabelB {
+    background-color: yellow;
+}
+
+.energyLabelC {
+    background-color: #fa983a;
+}

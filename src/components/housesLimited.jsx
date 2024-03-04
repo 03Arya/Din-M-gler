@@ -7,7 +7,7 @@ export default function AgentShowcase() {
     const [homes, setHomes] = useState([]);
 
     useEffect(() => {
-        fetch('https://dinmaegler.onrender.com/homes')
+        fetch('https://dinmaegler.onrender.com/homes?_limit=4')
             .then(response => response.json())
             .then(data => {
                 console.log('API response:', data);

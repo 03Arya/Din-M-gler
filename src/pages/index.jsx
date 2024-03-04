@@ -14,7 +14,7 @@ import Navigation from "@/components/navigation";
 import AboutUs from "@/components/aboutUs";
 import Ad from "@/components/ad";
 import Footer from "@/components/footer";
-import Houses from "@/components/houses";
+import HousesLimited from "@/components/housesLimited";
 
 
 export default function Home() {
@@ -27,7 +27,7 @@ export default function Home() {
         <div className="frontPageContent">
           <h3 className="frontPageHousesHeader">Udvalge Boliger</h3>
           <p className="frontPageHousesText">There are many variations of passages of Lorem Ipusm avaliable but the this in majority have suffered alteration in some</p>
-          <Houses />
+          <HousesLimited />
           <Link className="showcaseAllHousesLink" href="/allHomes"> Se alle boliger</Link>
         </div>
       </section>

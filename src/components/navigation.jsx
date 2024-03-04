@@ -21,7 +21,9 @@ export default function Navigation() {
                 </ul>
 
                 <ul className='underNav'>
-                    <li className='menu'><Image className="" src={logo} alt='logo' /></li>
+                    <a href="/">
+                        <li className='menu'><Image className="" src={logo} alt='logo' /></li>
+                    </a>
                     <div>
                         <li className='menu'>Boliger til salg</li>
                         <li className='menu'>Mæglere</li>

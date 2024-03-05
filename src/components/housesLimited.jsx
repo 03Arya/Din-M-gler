@@ -36,7 +36,6 @@ export default function AgentShowcase() {
                 }
 
                 return (
-                    <a className='houseLink' href="">
                         <div key={home.id} className="house">
                             <Image className='houseImage'
                                 src={imageUrl}
@@ -58,7 +57,6 @@ export default function AgentShowcase() {
                                 </div>
                             </div>
                         </div>
-                    </a>
                 );
             })}
         </div>

@@ -1,0 +1,81 @@
+.houseContainer1 {
+    margin: auto;
+    display: grid;
+    width: 1200px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 2em 0;
+    border-bottom: 2px solid black;
+
+    .houseCode,
+    .houseAdress {
+        font-size: 20px;
+        font-weight: 600;
+        color: #162a41;
+    }
+
+    .housePrice {
+        text-align: end;
+        font-size: 30px;
+        color: #162a41;
+        font-weight: 700;
+    }
+}
+
+.houseImage {
+    margin: auto;
+    width: 100vw;
+    max-width: 1920px;
+}
+
+.iconsDiv {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-items: center;
+    justify-self: center;
+    width: 300px;
+    svg {
+        background-color: white;
+        font-size: 30px;
+    }
+}
+
+.houseContainer2 {
+    width: 1200px;
+    padding: 2em 0;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% 20%;
+    grid-template-rows: 1fr;
+    div {
+        display: grid;
+        grid-template-rows: repeat(5, 1fr);
+    }
+}
+
+.houseContainer3 {
+    padding-top: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1200px;
+    margin: auto;
+    .descriptionDiv {
+       
+        .houseDescription {
+            width: 500px;
+        }
+    }
+    .descriptionHeader,
+    .sellerHeader {
+        color: #2a2c30;
+        font-size: 20px;
+        font-weight: 700;
+        padding-bottom: 1em;
+    }
+}
+
+.sellerContainer {
+    .sellerDiv {
+        border: 1px solid black;
+        padding: 1em 1em;
+    }
+}

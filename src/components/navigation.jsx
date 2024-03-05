@@ -25,7 +25,9 @@ export default function Navigation() {
                         <li className='menu'><Image className="" src={logo} alt='logo' /></li>
                     </a>
                     <div>
-                        <li className='menu'>Boliger til salg</li>
+                        <a href="/allHomes">
+                            <li className='menu'>Boliger til salg</li>
+                        </a>
                         <li className='menu'>Mæglere</li>
                         <li className='menu'>Mine favoritter</li>
                         <li className='menu'>Kontakt os</li>

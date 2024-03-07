@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Image from "next/image";
 import HouseFilter from './HouseFilter'; // Import the HouseFilter component
 
-export default function AgentShowcase() {
+export default function HouseShowcase() {
   const [homes, setHomes] = useState([]);
   const [type, setType] = useState('all');
   const [minPrice, setMinPrice] = useState(0);

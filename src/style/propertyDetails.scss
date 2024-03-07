@@ -44,7 +44,7 @@
     padding: 2em 0;
     margin: auto;
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20% 20%;
+    grid-template-columns: 15% 25% 15% 15% 20% 10%;
     grid-template-rows: 1fr;
     div {
         display: grid;
@@ -54,12 +54,13 @@
 
 .houseContainer3 {
     padding-top: 1em;
+    padding-bottom: 10em;
+    column-gap: 5em;
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 1200px;
     margin: auto;
     .descriptionDiv {
-       
         .houseDescription {
             width: 500px;
         }
@@ -74,8 +75,87 @@
 }
 
 .sellerContainer {
+    width: 700px;
     .sellerDiv {
-        border: 1px solid black;
-        padding: 1em 1em;
+        border: 2px solid #d3dee8;
+        padding: 2em 2em;
+        display: grid;
+        column-gap: 2em;
+        grid-template-columns: 1fr 1fr;
+        .sellerInfo {
+            height: 280px;
+        }
+        img {
+            width: 300px;
+            height: 280px;
+            max-width: 400px;
+            max-height: 300px;
+        }
+        .sellerName {
+            color: #2a2c30;
+            font-size: 26px;
+            font-weight: 600;
+        }
+
+        .sellerTitle {
+            color: #7b7b7b;
+            font-size: 18px;
+        }
+
+        .sellerPhone,
+        .sellerEmail {
+            font-size: 20px;
+            display: grid;
+            column-gap: 1em;
+            grid-template-columns: 5% 95%;
+            padding-bottom: 1em;
+        }
+
+        .line {
+            display: block;
+            position: relative;
+            border-bottom: 2px solid #d3dee8;
+            margin: 1em 0;
+            width: 60px;
+            height: 10px;
+            color: black;
+        }
     }
+}
+
+.imageContainer {
+    height: 280px;
+    img {
+        position: absolute;
+    }
+    div {
+        margin-top: 14em;
+        padding: 0.5em 1.5em;
+        position: relative;
+        width: 45%;
+        background-color: #162a41;
+        display: grid;
+        column-gap: 1em;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    svg {
+        font-size: 20px;
+        color: white;
+    }
+}
+
+.iconsDivSlider {
+    padding-top: 0.5em;
+    font-size: 40px;
+    margin: auto;
+    display: grid;
+    align-self: center;
+    grid-template-columns: repeat(4, 1fr);
+    width: 400px;
+}
+
+
+.sliderContaine img {
+    width: 100%;
+    height: auto;
 }

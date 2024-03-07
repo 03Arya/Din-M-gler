@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import Image from "next/image";
 
-export default function AgentShowcase() {
+export default function HouseShowcaseLimited() {
     const [homes, setHomes] = useState([]);
 
     useEffect(() => {

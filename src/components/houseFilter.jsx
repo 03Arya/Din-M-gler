@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactSlider from 'react-slider';
 
 function HouseFilter({ type, setType, minPrice, setMinPrice, maxPrice, setMaxPrice }) {
   return (

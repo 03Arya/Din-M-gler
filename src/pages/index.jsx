@@ -8,6 +8,7 @@ import "@/style/ad.scss"
 import "@/style/footer.scss"
 import "@/style/houses.scss"
 import "@/style/frontPage.scss"
+import "@/style/subscribe.scss"
 
 import Hero from "@/components/hero";
 import Navigation from "@/components/navigation";
@@ -15,6 +16,7 @@ import AboutUs from "@/components/aboutUs";
 import Ad from "@/components/ad";
 import Footer from "@/components/footer";
 import HousesLimited from "@/components/housesLimited";
+import Subscribe from "@/components/subscribe";
 
 
 export default function Home() {
@@ -31,6 +33,7 @@ export default function Home() {
           <Link className="showcaseAllHousesLink" href="/allHomes"> Se alle boliger</Link>
         </div>
       </section>
+      <Subscribe />
       <Ad />
       <Footer />
     </main>

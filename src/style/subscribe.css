@@ -1,0 +1,32 @@
+.subscribeContainer {
+  background-image: url("../images/subscribe.png");
+  height: 300px;
+}
+.subscribeContainer .subscribeBg {
+  background-color: #455463;
+  opacity: 0.8;
+  height: 100%;
+}
+.subscribeContainer p {
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+}
+.subscribeContainer .subscribeConetnt {
+  align-items: center;
+  height: 100%;
+  width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 4em;
+}
+.subscribeContainer .subscribeConetnt input {
+  padding: 1em 1em;
+  font-size: 22px;
+}
+.subscribeContainer .subscribeConetnt button {
+  background-color: white;
+  padding: 1em 1em;
+  font-size: 22px;
+}/*# sourceMappingURL=subscribe.css.map */

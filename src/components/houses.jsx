@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Image from "next/image";
-import HouseFilter from './HouseFilter'; // Import the HouseFilter component
-
+import HouseFilter from './houseFilter';
 export default function HouseShowcase() {
   const [homes, setHomes] = useState([]);
   const [type, setType] = useState('all');

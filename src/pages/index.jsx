@@ -9,6 +9,7 @@ import "@/style/footer.scss"
 import "@/style/houses.scss"
 import "@/style/frontPage.scss"
 import "@/style/subscribe.scss"
+import "@/style/agentsLimited.scss"
 
 import Hero from "@/components/hero";
 import Navigation from "@/components/navigation";
@@ -17,6 +18,7 @@ import Ad from "@/components/ad";
 import Footer from "@/components/footer";
 import HousesLimited from "@/components/housesLimited";
 import Subscribe from "@/components/subscribe";
+import AgentsLimited from "@/components/agentsLimited";
 
 
 export default function Home() {
@@ -34,6 +36,7 @@ export default function Home() {
         </div>
       </section>
       <Subscribe />
+      <AgentsLimited />
       <Ad />
       <Footer />
     </main>

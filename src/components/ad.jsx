@@ -18,8 +18,8 @@ export default function Ad() {
                     <a className="appleStoreLink" href=""><FontAwesomeIcon icon={faApple} />Apple Store</a>
                 </div>
                 <div className="phoneContainer">
-                    <Image className="phoneLeft" src={phoneLeft} />
-                    <Image className="phoneRight" src={phoneRight} />
+                    <Image className="phoneLeft" src={phoneLeft} alt="phoneLeft" />
+                    <Image className="phoneRight" src={phoneRight} alt="phoneRight" />
                 </div>
             </div>
         </section>

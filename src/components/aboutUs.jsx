@@ -45,7 +45,7 @@ export default function AboutUs() {
 
             <div className="aboutUsDiv2">
                 <div className='moreInfoContainer'>
-                    <Image src={property}/>
+                    <Image alt='property' src={property}/>
                     <div className='moreInfo'>
                         <p className='infoHeader'>Bestil et salgstjek</p>
                         <p className='infoText'>Med et Din Mægler Salgstjek bliver du opdateret på værdien af din bolig.</p>
@@ -53,7 +53,7 @@ export default function AboutUs() {
                 </div>
 
                 <div className='moreInfoContainer'>
-                    <Image src={location} />
+                    <Image alt='location' src={location} />
                     <div className='moreInfo'>
                         <p className='infoHeader'>74 butikker</p>
                         <p className='infoText'>Hos Din Mægler er din bolig til salg i alle vores 74 butikker, som er fordelt rundt om i Danmark.</p>
@@ -61,7 +61,7 @@ export default function AboutUs() {
                 </div>
 
                 <div className='moreInfoContainer'>
-                    <Image src={customer} />
+                    <Image alt='customer' src={customer} />
                     <div className='moreInfo'>
                         <p className='infoHeader'>Tilmed køberkartotek</p>
                         <p className='infoText'>Når du er tilmeldt vores køberkartotek, bliver du kontaktet inden en ny bolig bliver annonceret.</p>

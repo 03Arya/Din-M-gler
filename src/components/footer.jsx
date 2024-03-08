@@ -12,7 +12,7 @@ export default function Footer() {
         <footer>
             <section className="footerContent">
                 <div className="footerDiv1">
-                    <Image src={logo} />
+                    <Image alt="logo" src={logo} />
                     <p>There are many variations of passages of Lorem Ipusm avaliable, but the majority have suffered alteration in some form, by injected humour, or randomised words.</p>
                 </div>
                 <div className="footerSecondContainer">

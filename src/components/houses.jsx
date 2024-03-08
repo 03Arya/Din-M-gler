@@ -44,7 +44,7 @@ export default function HouseShowcase() {
         }
 
         return (
-          <a className='houseLink' href={`/house/${home.id}`}>
+          <a key={home.id} className='houseLink' href={`/house/${home.id}`}>
             <div key={home.id} className="house">
               <Image className='houseImage'
                 src={imageUrl}

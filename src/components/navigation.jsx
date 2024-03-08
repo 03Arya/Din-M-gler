@@ -7,6 +7,7 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import Image from "next/image"
 
 import logo from "@/images/logo.png";
+import Link from 'next/link';
 
 export default function Navigation() {
     return (
@@ -21,13 +22,13 @@ export default function Navigation() {
                 </ul>
 
                 <ul className='underNav'>
-                    <a href="/">
+                    <Link href="/">
                         <li className='menu'><Image className="" src={logo} alt='logo' /></li>
-                    </a>
+                        </Link>
                     <div>
-                        <a href="/allHomes">
+                        <Link href="/allHomes">
                             <li className='menu'>Boliger til salg</li>
-                        </a>
+                        </Link>
                         <li className='menu'>Mæglere</li>
                         <li className='menu'>Mine favoritter</li>
                         <li className='menu'>Kontakt os</li>

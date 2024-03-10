@@ -63,7 +63,7 @@ export default function HouseDetails() {
     <main>
       <Navigation />
       <section>
-        <img className='houseImage' src={house.images[0]?.url} alt={house.title} />
+        <img className='houseImageBig' src={house.images[0]?.url} alt={house.title} />
         <div className='houseContainer1'>
           <div className='houseCityDiv'>
             <p className='houseAdress'>{house.adress1}</p>

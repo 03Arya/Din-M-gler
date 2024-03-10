@@ -1,10 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import "@/style/nav.scss"
-import "@/style/footer.scss"
-import "@/style/houses.scss"
-import "@/style/allHomes.scss"
+
 
 import Navigation from "@/components/navigation";
 import Footer from "@/components/footer";

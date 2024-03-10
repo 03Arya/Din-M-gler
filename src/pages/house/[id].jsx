@@ -19,9 +19,6 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faSkype } from '@fortawesome/free-brands-svg-icons';
 
-import "@/style/nav.scss"
-import "@/style/footer.scss"
-import "@/style/propertyDetails.scss"
 
 export default function HouseDetails() {
   const router = useRouter();
